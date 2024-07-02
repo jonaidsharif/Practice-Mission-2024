@@ -6,6 +6,11 @@ body {
 h1{
     font-size: 50px;
 }
+
+h2{
+    font-size: 40px;
+}
+
 .orange-color{
     color: orange;
 }
@@ -49,12 +54,65 @@ p{
 }
 
 .top-banner{
-    background-image: url(images/shapes/top-banner.png);
+    background-image: url(/images/shapes/top-banner.png);
     background-repeat: no-repeat;
 }
+
+/* Team Discussion Styles Section */
 
 .team-discussion{
     background-image: url(/images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+/* community Conversation Styles Section */
+
+.community-conversation{
+    background-image: url(/images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mission{
+    text-align: center;
+}
+/* 
+.section-mission{
+    text-align: center;
+    justify-content: space-between;
+} */
+
+.target-cotainer{
+    display: flex;
+    gap: 30px;
+}
+
+.target{
+    padding: 25px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.target-cotainer img{
+    width: 60%;
+    align-content: center;
+}
+
+
+/* Footer Styles Section */
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+.style-footer{
+    color: white;
+    font-family: "Black Ops One", system-ui;
+}
+
+.footer-para{
+    color: azure;
 }
