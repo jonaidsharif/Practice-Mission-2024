@@ -54,14 +54,14 @@ p{
 }
 
 .top-banner{
-    background-image: url(/images/shapes/top-banner.png);
+    background-image: url(images/shapes/top-banner.png);
     background-repeat: no-repeat;
 }
 
 /* Team Discussion Styles Section */
 
 .team-discussion{
-    background-image: url(/images/shapes/shape-1.png);
+    background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -69,7 +69,7 @@ p{
 /* community Conversation Styles Section */
 
 .community-conversation{
-    background-image: url(/images/shapes/shape-1.png);
+    background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: right;
 }
